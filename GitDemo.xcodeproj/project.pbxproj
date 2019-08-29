@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841194E523184860007A1986 /* TestClass.c in Sources */ = {isa = PBXBuildFile; fileRef = 841194E423184860007A1986 /* TestClass.c */; };
 		842A51DD2318444A0098C221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A51DC2318444A0098C221 /* AppDelegate.m */; };
 		842A51E02318444A0098C221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A51DF2318444A0098C221 /* ViewController.m */; };
 		842A51E32318444A0098C221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A51E12318444A0098C221 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841194E323184860007A1986 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		841194E423184860007A1986 /* TestClass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TestClass.c; sourceTree = "<group>"; };
 		842A51D82318444A0098C221 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842A51DB2318444A0098C221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		842A51DC2318444A0098C221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		842A51CF2318444A0098C221 = {
 			isa = PBXGroup;
 			children = (
+				841194E323184860007A1986 /* TestClass.h */,
+				841194E423184860007A1986 /* TestClass.c */,
 				842A51DA2318444A0098C221 /* GitDemo */,
 				842A51F32318444B0098C221 /* GitDemoTests */,
 				842A51FE2318444B0098C221 /* GitDemoUITests */,
@@ -264,6 +269,7 @@
 			files = (
 				842A51E02318444A0098C221 /* ViewController.m in Sources */,
 				842A51EB2318444B0098C221 /* main.m in Sources */,
+				841194E523184860007A1986 /* TestClass.c in Sources */,
 				842A51DD2318444A0098C221 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
